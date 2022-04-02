@@ -8,20 +8,22 @@ The table can be reset by clicking the "UFO Sightings" button in the upper left 
 
 ## Results
 This is the landing screen. Notice the full table of UFO Sightings data. The "UFO Sightings" button in the upper left of the screen will bring the user back to this landing screen when clicked.
-![ufo_1.png](link here)
+![ufo_1.png](https://github.com/stovepipe/UFOs/blob/main/static/images/ufo_1.png)
 
 When a user enters a date, the change is detected automatically and the table is filtered accordingly.
-![ufo_2.png](link here)
+![ufo_2.png](https://github.com/stovepipe/UFOs/blob/main/static/images/ufo_2.png)
 
 The user can then enter a city and state to further filter the data.
-![ufo_3.png](link here)
+![ufo_3.png](https://github.com/stovepipe/UFOs/blob/main/static/images/ufo_3.png)
 
 There is even an option to filter the UFO Sightings by country and shape of the UFO.
-![ufo_4.png](link here)
+![ufo_4.png](https://github.com/stovepipe/UFOs/blob/main/static/images/ufo_4.png)
 
 ## Summary
 
 ### Limitations
-
+One limitation with this filter is that there is not a way to remove a single filter without needing to reset the entire table. During the analysis, this could be a challenging barrier to exploring the entire dataset in an efficient way.
 
 ### Future Recommendations
+- Each filter could include a button to remove the filter, allowing more flexibility to data manipulation.
+- Rather than having text boxes with user input, each filter could include a dropdown list of available filter criteria. This would minimize errors and further increase the efficiency of analysis performed using this interface.
